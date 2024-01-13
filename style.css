@@ -1,0 +1,63 @@
+@media screen and (max-width: 825px){
+    div{
+         background-image: url('./background-mob.png');
+         height: 800px;
+         padding-top: 100px;
+    }
+
+
+    h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Lobster;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: normal;
+        width: 300px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 826px) and (max-width: 1439px){
+    div{
+        background-image: url('./background-tablet.png');
+        height: 1170px;
+        padding-top: 120px;
+    }
+
+    h1{
+        color: #FFF;
+        text-align: center;
+        font-family: Lobster;
+        font-size: 70px;
+        font-weight: 400;
+        line-height: normal;
+        width: 700px;
+        margin: auto;
+     }
+    }
+
+@media screen and (max-width: 14440px){
+    div{
+         background-image: url('./background-desktop.png');
+         height: 1100px;
+         padding-top: 200px;
+    }
+
+    h1{
+        color: #FFF;
+       text-align: center;
+       font-family: Lobster;
+       font-size: 75px;
+       font-weight: 400;
+       line-height: normal;
+       width: 1000px;
+       margin: auto;
+    }
+}
+
+html,
+body{
+    margin: 0;
+    height: 100%;
+}
